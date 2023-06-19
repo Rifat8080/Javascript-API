@@ -57,7 +57,7 @@ npm init -y
 Clone this repository to your desired folder:
 
   cd my-folder
-  git clone [git@github.com:myaccount/my-project.git](https://github.com/Rifat8080/Javascript-API.git)
+  git clone https://github.com/Rifat8080/Javascript-API.git
 
 
 

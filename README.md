@@ -16,6 +16,9 @@
     - [Key Features](#key-features)
 - [💻 Getting Started](#getting-started)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
+  - [Install](#install)
+  - [Usage](#usage)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -48,6 +51,28 @@ git clone https://github.com/Rifat8080/Javascript-API.git
 In order to run this project you need:
 
 npm init -y
+
+### Setup
+
+Clone this repository to your desired folder:
+
+  cd my-folder
+  git clone [git@github.com:myaccount/my-project.git](https://github.com/Rifat8080/Javascript-API.git)
+
+
+
+### Install
+
+Install this project with:
+
+npm install
+
+### Usage
+
+To run the project, execute the following command:
+
+npm start
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

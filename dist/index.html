@@ -1,69 +1,32 @@
-<head><script defer src="main.js"></script></head>Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module not found: Error: Can't resolve 'C:\Users\88019\Desktop\Javascript-API\src\index.html' in 'C:\Users\88019\Desktop\Javascript-API'
-  ModuleNotFoundError: Module not found: Error: Can't resolve 'C:\Users\88019\Desktop\Javascript-API\src\index.html' in 'C:\Users\88019\Desktop\Javasc  ript-API'
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\Compilation.js:2022:28
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\NormalModuleFactory.js:817:13
-      at eval (eval at create (C:\Users\88019\Desktop\Javascript-API\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:10:1)
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\NormalModuleFactory.js:275:22
-      at eval (eval at create (C:\Users\88019\Desktop\Javascript-API\node_modules\tapable\lib\HookCodeFactory.js:33:10), <anonymous>:9:1)
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\NormalModuleFactory.js:448:22
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\NormalModuleFactory.js:122:11
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\NormalModuleFactory.js:689:25
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\NormalModuleFactory.js:893:8
-      at C:\Users\88019\Desktop\Javascript-API\node_modules\webpack\lib\NormalModuleFactory.js:1013:5
-  
-  - Compilation.js:2022 
-    [Javascript-API]/[webpack]/lib/Compilation.js:2022:28
-  
-  - NormalModuleFactory.js:817 
-    [Javascript-API]/[webpack]/lib/NormalModuleFactory.js:817:13
-  
-  
-  - NormalModuleFactory.js:275 
-    [Javascript-API]/[webpack]/lib/NormalModuleFactory.js:275:22
-  
-  
-  - NormalModuleFactory.js:448 
-    [Javascript-API]/[webpack]/lib/NormalModuleFactory.js:448:22
-  
-  - NormalModuleFactory.js:122 
-    [Javascript-API]/[webpack]/lib/NormalModuleFactory.js:122:11
-  
-  - NormalModuleFactory.js:689 
-    [Javascript-API]/[webpack]/lib/NormalModuleFactory.js:689:25
-  
-  - NormalModuleFactory.js:893 
-    [Javascript-API]/[webpack]/lib/NormalModuleFactory.js:893:8
-  
-  - NormalModuleFactory.js:1013 
-    [Javascript-API]/[webpack]/lib/NormalModuleFactory.js:1013:5
-  
-  - child-compiler.js:169 
-    [Javascript-API]/[html-webpack-plugin]/lib/child-compiler.js:169:18
-  
-  - Compiler.js:551 finalCallback
-    [Javascript-API]/[webpack]/lib/Compiler.js:551:5
-  
-  - Compiler.js:577 
-    [Javascript-API]/[webpack]/lib/Compiler.js:577:11
-  
-  - Compiler.js:1200 
-    [Javascript-API]/[webpack]/lib/Compiler.js:1200:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [Javascript-API]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1196 
-    [Javascript-API]/[webpack]/lib/Compiler.js:1196:33
-  
-  - Compilation.js:2795 finalCallback
-    [Javascript-API]/[webpack]/lib/Compilation.js:2795:11
-  
-  - Compilation.js:3100 
-    [Javascript-API]/[webpack]/lib/Compilation.js:3100:11
-  
-  
-</pre>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<script defer src="main.js"></script></head>
+<body>
+    <section class="gameboard">
+    
+   <h1 class="game-title">Leaderboards</h1>
+
+<div class="arrange-gameboard">
+ <div class="scoreboard">
+    <h2 class="recent-scores">Recent scores</h2>
+    <button class="refresh-btn" type="submit">Refresh</button> 
+    <h2 class="addscoring">Add your score</h2>
+</div>
+
+<div class="addscore"> 
+     <ul class="score-record"></ul>
+     <div class="scoreholder">
+    <input class="name-input" type="text" placeholder="Your name">
+    <input class="score-input" type="number" placeholder="Your score">
+    <button class="submit-btn" type="submit" >Submit</button>
+    </div>
+  </div>
+</div>
+
+<script src="index.js" type="module"></script>
+</body>
+</html>

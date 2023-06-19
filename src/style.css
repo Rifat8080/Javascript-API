@@ -1,86 +1,50 @@
-* {
+/* Add styles */
+
+body {
   margin: 0;
   padding: 0;
 }
 
-.arrange-gameboard {
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: flex-start;
+  justify-content: space-evenly;
 }
 
-.game-title {
-  font-family: lato, sans-serif;
-  font-size: 50px;
-  margin-left: 10%;
-  margin-top: 5%;
+h1 {
+  font-size: 25px;
+  text-align: center;
 }
 
-.scoreboard {
+.refresh-scores {
   display: flex;
-  margin-left: 13%;
-  margin-top: 2%;
-  font-family: lato, sans-serif;
-  align-items: baseline;
+  justify-content: space-between;
+}
+
+.refresh-scores h2 {
+  font-size: 20px;
 }
 
 .refresh-btn {
-  margin-left: 25px;
-  padding: 6px 12px;
-  font-family: lato, sans-serif;
-  font-weight: 900;
+  margin: 18px;
 }
 
-.recent-scores {
-  font-weight: 900;
-  font-family: lato, sans-serif;
+.display-scores {
+  border: 3px solid black;
+  padding: 5px 1px;
 }
 
-.addscoring {
-  font-weight: 900;
-  font-family: lato, sans-serif;
-  margin-left: 120px;
+.display-scores div:nth-of-type(2n) {
+  background-color: rgb(233, 230, 230);
 }
 
-.addscore {
-  display: flex;
-  flex-direction: row;
-  margin-left: 8%;
-  margin-top: 2%;
+.input-scores {
+  display: table-caption;
 }
 
-.scoreholder {
-  display: flex;
-  flex-direction: column;
-  margin-left: 100px;
+.score {
+  margin: 1em 0;
 }
 
-.scoreholder input {
-  border: 5px solid #000;
-  padding: 10px 20px;
-  margin-bottom: 7%;
-  font-family: lato, sans-serif;
-  font-size: 20px;
-}
-
-.score-record {
-  margin-left: 13%;
-  list-style: none;
-  font-family: lato, sans-serif;
-  font-size: 20px;
-  border: 5px solid #000;
-  width: 350px;
-}
-
-.score-list {
-  padding-top: 15px;
-  padding-bottom: 15px;
-  padding-left: 20px;
-}
-
-.submit-btn {
-  margin-left: 200px;
-  padding: 6px 8px;
-  font-family: lato, sans-serif;
-  font-weight: 900;
+.add-scores h2 {
+  font-weight: initial;
 }

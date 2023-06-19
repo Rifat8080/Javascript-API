@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.arrange-gameboard {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.game-title {
+  font-family: lato, sans-serif;
+  font-size: 50px;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+
+.scoreboard {
+  display: flex;
+  margin-left: 13%;
+  margin-top: 2%;
+  font-family: lato, sans-serif;
+  align-items: baseline;
+}
+
+.refresh-btn {
+  margin-left: 25px;
+  padding: 6px 12px;
+  font-family: lato, sans-serif;
+  font-weight: 900;
+}
+
+.recent-scores {
+  font-weight: 900;
+  font-family: lato, sans-serif;
+}
+
+.addscoring {
+  font-weight: 900;
+  font-family: lato, sans-serif;
+  margin-left: 120px;
+}
+
+.addscore {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8%;
+  margin-top: 2%;
+}
+
+.scoreholder {
+  display: flex;
+  flex-direction: column;
+  margin-left: 100px;
+}
+
+.scoreholder input {
+  border: 5px solid #000;
+  padding: 10px 20px;
+  margin-bottom: 7%;
+  font-family: lato, sans-serif;
+  font-size: 20px;
+}
+
+.score-record {
+  margin-left: 13%;
+  list-style: none;
+  font-family: lato, sans-serif;
+  font-size: 20px;
+  border: 5px solid #000;
+  width: 350px;
+}
+
+.score-list {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 20px;
+}
+
+.submit-btn {
+  margin-left: 200px;
+  padding: 6px 8px;
+  font-family: lato, sans-serif;
+  font-weight: 900;
+}
